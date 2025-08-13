@@ -28,11 +28,12 @@ bot = TelegramClient('bot_session', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
 @bot.on(events.NewMessage(pattern="(?i).*"))
 async def handler(event):
-    await event.reply("សួស្តី! ខ្ញុំឆ្លើយតបឆាប់ៗនេះ។")
+    await event.reply("សួស្តី! ខ្ញុំឆ្លើយតបឆាប់ៗនេះssssss។")
 
 print("Bot started and running...")
 
 bot.run_until_disconnected()
+
 
 
 
